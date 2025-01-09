@@ -1,19 +1,13 @@
-import React from "react"
-import { Link } from "react-router-dom";
-import { Button } from "../ui/button";
+import React from 'react';
+import Navbar from './Navbar';
+import HeroSection from './HeroSection';
 
-const Home = (props) => {
+export default function Home() {
   return (
-    <div>
-      home
-      <button className="text-black border-spacing-2 ml-5 ">
-        <Link to="build">Go To Build Page</Link>
-      </button>
-      <div>
-      <Button>Click me</Button>
+    <div className="min-h-screen bg-black text-white">
+      <Navbar />
+      <HeroSection />
     </div>
-    </div>
-  )
-};
+  );
+}
 
-export default Home;
