@@ -1,15 +1,16 @@
-import { useState } from 'react'
 import './App.css'
+import { Routes, Route } from "react-router-dom";
+import Home from "./homePage/Home"
+import Build from './buildWebpage/build';
 
 function App() {
 
-  const [cnt,setCnt] = useState(0);
   return (
     <>
-      <button onClick={()=>setCnt(cnt+1)}>Increment Cnt</button>
-      {" = "} {
-        cnt
-      }
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="build" element={ <Build/> } />
+      </Routes>
     </>
   )
 }
