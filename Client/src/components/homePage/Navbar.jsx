@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <FaHeadSideVirus className="w-6 h-6 text-[#e6fb04]" />
-          <span className="text-xl font-semibold">noCode-Web</span>
+          <span className="text-xl font-semibold">noCode.web</span>
         </div>
         <div className="flex items-center gap-4">
           <button className="px-4 py-2 text-sm font-medium text-white hover:text-[#e6fb04] transition-colors">
