@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import HeroSection from './HeroSection';
 import FeatureSection from './FeatureSection'
+import Steps from './Steps';
+import Testimonial from './Testimonial';
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <FeatureSection/>
+      <Steps/>
+      <Testimonial/>
     </div>
   );
 }
