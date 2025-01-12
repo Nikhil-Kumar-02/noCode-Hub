@@ -4,6 +4,7 @@ import HeroSection from './HeroSection';
 import FeatureSection from './FeatureSection'
 import Steps from './Steps';
 import Testimonial from './Testimonial';
+import PriceCards from './PriceCards';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <FeatureSection/>
       <Steps/>
       <Testimonial/>
+      <PriceCards/>
     </div>
   );
 }
