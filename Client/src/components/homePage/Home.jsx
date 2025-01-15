@@ -5,6 +5,7 @@ import FeatureSection from './FeatureSection'
 import Steps from './Steps';
 import Testimonial from './Testimonial';
 import PriceCards from './PriceCards';
+import FAQs from './FAQs';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Steps/>
       <Testimonial/>
       <PriceCards/>
+      <FAQs/>
     </div>
   );
 }
