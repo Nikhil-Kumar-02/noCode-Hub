@@ -6,6 +6,7 @@ import Steps from './Steps';
 import Testimonial from './Testimonial';
 import PriceCards from './PriceCards';
 import FAQs from './FAQs';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimonial/>
       <PriceCards/>
       <FAQs/>
+      <Footer/>
     </div>
   );
 }
